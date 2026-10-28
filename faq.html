@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ — Snipp</title>
+<meta name="description" content="Answers to common questions about Snipp: installation, the SmartScreen warning, PrtSc on Windows 11, privacy, text recognition and more.">
+<meta name="theme-color" content="#18181b">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="">Snipp</a>
+    <div class="tabs">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="demo.html" class="try">Try it</a>
+      <a href="download.html">Download</a>
+      <a href="faq.html" aria-current="page">FAQ</a>
+      <a href="about.html">About</a>
+    </div>
+    <a class="btn btn-primary btn-sm" href="download.html">Download</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<header class="hero page-hero">
+  <div class="wrap">
+    <div class="eyebrow">FAQ</div>
+    <h1>Questions, <span class="grad">answered.</span></h1>
+  </div>
+</header>
+
+<section class="tight">
+  <div class="wrap faq">
+    <h3>Getting started</h3>
+    <details open><summary>Is Snipp free?</summary><p>Yes. Snipp is free to download and use, with no account, ads or trial period.</p></details>
+    <details><summary>Windows shows "Windows protected your PC" when I run the installer.</summary><p>That's Microsoft Defender SmartScreen, which warns about new downloads that haven't built up a reputation yet. Click <b>More info</b>, then <b>Run anyway</b>.</p></details>
+    <details><summary>Do I need administrator rights?</summary><p>No. Snipp installs just for your user account, so there's no UAC prompt.</p></details>
+    <details><summary>What are the system requirements?</summary><p>Windows 10 or Windows 11. Snipp uses the .NET Framework that's already part of Windows, so there's nothing else to install.</p></details>
+
+    <h3>Using Snipp</h3>
+    <details><summary>PrtSc opens the Windows Snipping Tool instead of Snipp.</summary><p>On Windows 11, PrtSc is assigned to the built-in tool by default. Turn off <b>Settings › Accessibility › Keyboard › Use the Print screen key to open screen capture</b>, or choose a different shortcut in Snipp's settings. Snipp tells you when it detects this.</p></details>
+    <details><summary>Can I change the keyboard shortcuts?</summary><p>Yes. Right-click the Snipp icon in the notification area, choose <b>Settings</b>, click a shortcut box and press the new combination.</p></details>
+    <details><summary>How do I capture a menu or a tooltip?</summary><p>Use <b>Snip with delay</b> from the tray menu (3, 5 or 10 seconds), open the menu, and wait — or simply press the shortcut while the menu is open; the screen is frozen instantly.</p></details>
+    <details><summary>Text recognition says no language is installed.</summary><p>Windows' OCR engine uses your display languages. Add a language with OCR support in <b>Settings › Time &amp; language › Language</b> (English and most major languages qualify).</p></details>
+    <details><summary>Can I edit an annotation after I've drawn it?</summary><p>Yes. Choose the Select tool (<kbd>V</kbd>), click the annotation, then move it, drag its handles, change its color or size, or press <kbd>Del</kbd>. Double-click text to edit it.</p></details>
+
+    <h3>Privacy &amp; files</h3>
+    <details><summary>Does Snipp upload my screenshots anywhere?</summary><p>No. Snipp never connects to the internet. Snips stay on your PC — on the clipboard, in the folder you choose, and in your local history (which you can turn off or clear). Text recognition also runs entirely offline.</p></details>
+    <details><summary>Where are my snips stored?</summary><p>Saved snips go to <b>Pictures\Snipp</b> by default (changeable in Settings). Recent-snip history lives in <b>%LOCALAPPDATA%\Snipp\History</b> and keeps the last 50 by default.</p></details>
+    <details><summary>Does the online demo upload my edits?</summary><p>No. The <a href="demo.html">Try it</a> editor runs entirely in your browser. Sample images are generated on the page and nothing you draw is sent anywhere.</p></details>
+    <details><summary>How do I uninstall it?</summary><p>Open <b>Settings › Apps</b>, find Snipp and choose <b>Uninstall</b>. Your saved screenshots are kept; you can choose whether to remove your settings too.</p></details>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap center">
+    <p class="lead" style="margin:0 auto 20px">Still curious? Try the editor right in your browser.</p>
+    <a class="btn btn-primary" href="demo.html">Open the live editor →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Snipp</span>
+    <span><a href="features.html">Features</a><a href="demo.html">Try it</a><a href="download.html">Download</a><a href="faq.html">FAQ</a><a href="about.html">About</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
